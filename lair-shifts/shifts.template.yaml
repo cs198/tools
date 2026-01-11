@@ -1,0 +1,30 @@
+endpoint: https://cs198.stanford.edu/api
+quarter: 1264
+
+weeks:
+  2: 2026-01-11
+  3: 2026-01-18
+  4: 2026-01-25
+  5: 2026-02-01
+  6: 2026-02-08
+  7: 2026-02-15
+  8: 2026-02-22
+  9: 2026-03-01
+  10: 2026-03-08
+
+shifts:
+  early: 18:50-21:00
+  late:  20:50-23:00
+
+cohorts:
+  - weeks: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+    helpers:
+      sunet: Sunday early
+
+  - weeks: [2, 3, 5, 7, 9]
+    helpers:
+      sunet: Thursday late
+  
+  - weeks: [2, 4, 6, 8, 10]
+    helpers:
+      sunet: Wednesday early
